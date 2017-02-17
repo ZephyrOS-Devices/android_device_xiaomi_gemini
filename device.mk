@@ -295,6 +295,10 @@ PRODUCT_BOOT_JARS += telephony-ext
 PRODUCT_PACKAGES += \
     sensors.msm8996
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshims_ims
+
 # WiFi
 PRODUCT_PACKAGES += \
     libqsap_sdk \
