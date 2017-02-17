@@ -49,6 +49,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
+    media.camera.ts.monotonic=1 \
     persist.camera.gyro.disable=0 \
     persist.camera.imglib.fddsp=1
 
